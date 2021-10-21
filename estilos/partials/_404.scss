@@ -1,3 +1,5 @@
+@import "./responsive";
+
 .error404 {
     height: 100vh;
     display: flex;
@@ -17,6 +19,17 @@
         margin-block-start: 4rem;
         margin-block-end: 4rem;
         padding: 0.5rem;
+        @include tablet {
+            font-size: 3rem;
+            margin: 7rem;
+            margin-block-start: 2rem;
+            margin-block-end: 2rem;
+        }
+        @include movil {
+            margin: 2rem;
+            margin-block-start: 1rem;
+            margin-block-end: 1rem;
+        }
     }
     &__texto {
         display: block;
@@ -26,6 +39,18 @@
         color: $white;
         font-size: 2rem;
         bottom: 100%;
+        @include tablet {
+            font-size: 1.5rem;
+            margin: 7rem;
+            margin-block-start: 2rem;
+            margin-block-end: 2rem;
+        }
+        @include movil {
+            font-size: 1.4rem;
+            margin: 2rem;
+            margin-block-start: 1rem;
+            margin-block-end: 1rem;
+        }
     }
     &__button {
         color: $white;
@@ -37,21 +62,22 @@
         border-radius: 1rem;
         position: relative;
         bottom: 10%;
-        @include tablet {
-          margin: auto;
-          margin-top: 0;
-          margin-bottom: 0;
-        }
-        @include movil {
-          margin: auto;
-          padding: 1.5rem;
-          margin-top: 0;
-          margin-bottom: 0;
-        }
         &:hover {
             color: $turq-dark;
             background-color: $turq-light;
         }
+        @include tablet {
+            margin: auto;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+          }
+          @include movil {
+            font-size: 1.5rem;
+            margin: auto;
+            padding: 1.5rem;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+          }
     }
 }
 
