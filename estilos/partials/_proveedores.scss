@@ -19,7 +19,8 @@
         margin: auto;
     }
     &__img:hover {
-        transform: scale(1.1);
+        transform: scale(1.2);
+        transition: 1s ease-out;
     }
     @include movil {
         margin: auto;
