@@ -1,0 +1,41 @@
+@import "./responsive";
+
+/*PROVEEDORES*/
+
+.proveedores {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    grid-gap: 1rem;
+    margin: 5rem;
+    &__item {
+        max-width: 100%;
+        margin: 3rem;
+    }
+    &__img {
+        height: auto;
+        width: auto;
+        max-width: 200px;
+        display: block;
+        margin: auto;
+    }
+    &__img:hover {
+        transform: scale(1.1);
+    }
+    @include movil {
+        margin: auto;
+    }
+}
+
+.proveedores-banner {
+    background-image: url(../multimedia/proveedoresBox.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: $turq;
+    max-width: 100%;
+    margin: 5rem;
+    padding: 5rem;
+    h3 {
+        color: $white;
+        text-align: center;
+    }
+}

@@ -1,0 +1,26 @@
+@import "./responsive";
+
+/*FOOTER*/
+.detalles-footer {
+    justify-content: left;
+    list-style: none;
+    background: -webkit-linear-gradient(top, #82898a, #9da9aa);
+    color: $white;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    margin: auto;
+    padding: 1rem;
+    font-weight: 300;
+    a {
+        text-decoration: none;
+        color: $white;
+    }
+    i:hover {
+        color: $turq;
+    }
+    @include movil {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+}

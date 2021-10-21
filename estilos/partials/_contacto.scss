@@ -1,0 +1,21 @@
+/*CONTACTO*/
+.form {
+    margin: 6rem;
+    &__item {
+        font-family: 'Montserrat', sans-serif;
+        color: $grey;
+    }
+    &__legend {
+        font-family: 'Montserrat', sans-serif;
+        color: $turq-dark;
+        font-weight: 600;
+    }
+}
+.button {
+    color: $white;
+    background-color: $turq-dark;
+    &:hover {
+        color: $turq-dark;
+        background-color: $turq-light;
+    }
+}

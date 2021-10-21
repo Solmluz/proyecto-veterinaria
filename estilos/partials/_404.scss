@@ -1,0 +1,60 @@
+.error404 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    background-image: url(../multimedia/404.gif);
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 3000px 0 0 0 rgba(0, 0, 0, 0.486);
+    background-color: $grey;
+    &__titulo {
+        text-align: center;
+        color: $white;
+        font-weight: 700;
+        font-size: 8rem;
+        margin: 2rem;
+        margin-block-start: 4rem;
+        margin-block-end: 4rem;
+        padding: 0.5rem;
+    }
+    &__texto {
+        display: block;
+        margin: 23rem;
+        margin-block-start: 7rem;
+        margin-block-end: 7rem;
+        color: $white;
+        font-size: 2rem;
+        bottom: 100%;
+    }
+    &__button {
+        color: $white;
+        background-color: $turq-dark;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 2rem;
+        padding: 1.5rem;
+        border-radius: 1rem;
+        position: relative;
+        bottom: 10%;
+        @include tablet {
+          margin: auto;
+          margin-top: 0;
+          margin-bottom: 0;
+        }
+        @include movil {
+          margin: auto;
+          padding: 1.5rem;
+          margin-top: 0;
+          margin-bottom: 0;
+        }
+        &:hover {
+            color: $turq-dark;
+            background-color: $turq-light;
+        }
+    }
+}
+
+.btn-primary {
+    border: none;
+}

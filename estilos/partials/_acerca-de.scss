@@ -1,0 +1,40 @@
+@import "./responsive";
+
+/*ACERCA DE*/
+.beneficios {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 23rem;
+    margin-block-start: 2rem;
+    margin-block-end: 2rem;
+    text-align: center;
+    color: $grey;
+    font-family: 'Montserrat', sans-serif;
+    gap: 1rem;
+    &__item {
+        background-color: $turq-light;
+        max-width: 100%;
+    }
+    @include tablet {
+        flex-direction: column;
+        margin: 7rem;
+        margin-block-start: 2rem;
+        margin-block-end: 2rem;
+    }
+    @include movil {
+        flex-direction: column;
+        margin: 3rem;
+        margin-block-start: 2rem;
+        margin-block-end: 2rem;
+    }
+}
+
+.button {
+    color: $white;
+    background-color: $turq-dark;
+    &:hover {
+        color: $turq-dark;
+        background-color: $turq-light;
+    }
+}

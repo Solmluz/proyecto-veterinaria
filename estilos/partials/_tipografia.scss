@@ -1,0 +1,86 @@
+@import "./responsive";
+
+/*Créditos: https://codepen.io/jakob-e/pen/yVyYzv*/
+$font-lock-min:  768px !default; 
+$font-lock-max: 1024px !default;
+
+@mixin font-size(
+  $min, //local                       
+  $max: null, //local                  
+  $lock-min: $font-lock-min, //local
+  $lock-max: $font-lock-max  //local  
+  ){
+    & { font-size: $min; }
+    @if $max {
+      @media (min-width: $lock-min) and (max-width: $lock-max){ 
+        & { 
+          font-size: calc(
+            #{$min} + 
+            #{num($max) - num($min)} * 
+            (100vw - #{$lock-min}) / 
+            #{num($lock-max) - num($lock-min)}
+          ); 
+        } 
+      }
+      @media (min-width: $lock-max){ 
+        & { font-size: $max; } 
+      }
+    }
+}
+
+/*TÍTULOS*/
+.titulos {
+    color: $turq-dark;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin: 2rem;
+    padding: 0.5rem;
+    @include movil {
+        margin: 0;
+    }
+}
+
+/*TEXTO*/
+.texto {
+    display: block;
+    margin: 23rem;
+    margin-block-start: 2rem;
+    margin-block-end: 2rem;
+    color: $grey;
+    font-family: 'Montserrat', sans-serif;
+    @include tablet {
+        margin: 7rem;
+        margin-block-start: 2rem;
+        margin-block-end: 2rem;
+    }
+    @include movil {
+        margin: 3rem;
+        margin-block-start: 2rem;
+        margin-block-end: 2rem;
+    }
+}
+
+p {
+    text-align: center;
+    color: $grey;
+    font-family: 'Montserrat', sans-serif;
+    @include font-size(1.2rem, 1rem);
+    margin: 3rem;
+}
+  
+h1{
+    @include font-size(2.2rem, 2rem)
+}
+
+h2 {
+    @include font-size(1.6rem, 1.4rem)
+}
+
+h3 {
+    @include font-size(1.4rem, 1.2rem)
+}
+
+h4 {
+  @include font-size(1.3rem, 1.1rem)
+}

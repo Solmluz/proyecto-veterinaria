@@ -1,0 +1,21 @@
+﻿Comprimí las imágenes para reducir su peso.
+
+Cambié los titles por otros más intuitivos que siempre muestran el nombre de la sucursal.
+
+Agregué keywords para facilitar su búsqueda.
+
+Hice que las keywords coincidieran con el contenido de su respectiva página.
+
+Agregué una página de error 404 con un botón que lleva al inicio.
+
+Los encabezados cuentan con jerarquía.
+
+Usé efectos de css3 en lugar de agregarlos editando la imagen, como el box shadow.
+
+Utilicé formatos de imagen acordes a su objetivo, jpg, png y gif.
+
+Todas las páginas tienen su propia description y son acordes al contenido de éstas.
+
+Las páginas están optimizadas para móviles mediante diseños responsivos.
+
+El contenido es fácil de leer ya que no contiene errores de ortografía ni de gramática.

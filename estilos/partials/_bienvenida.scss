@@ -1,0 +1,198 @@
+@import "./responsive";
+
+/*BIENVENIDA*/
+.bienvenida {
+    padding-bottom: 5rem;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image:url(../multimedia/inicio.jpg);
+    background-position: top left;
+    background-size: cover;
+    background-color: $grey;
+    box-shadow: inset 3000px 0 0 0 rgba(0, 0, 0, 0.199);
+    &__titulo {
+        color: $white;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        margin: 2rem;
+        text-align: center;
+    }
+    &__texto {
+        display: block;
+        margin: 23rem;
+        margin-block-start: 2rem;
+        margin-block-end: 2rem;
+        color: $white;
+    }
+    @include tablet {
+            background-position: center;
+            &__texto {
+                margin: 7rem;
+                margin-block-start: 2rem;
+                margin-block-end: 2rem;
+            }
+    }
+    @include movil {
+            background-position: center;
+            &__texto {
+                margin: 3rem;
+                margin-block-start: 2rem;
+                margin-block-end: 2rem;
+            }
+    }
+}
+
+.bacerca {
+    height: 100vh;
+    padding-bottom: 5rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image:url(../multimedia/acercaDe.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color: $grey;
+    box-shadow: inset 3000px 0 0 0 rgba(0, 0, 0, 0.199);
+    &__titulo {
+        color: $white;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        margin: 2rem;
+        text-align: center;
+    }
+    &__texto {
+        display: block;
+        margin: 23rem;
+        margin-block-start: 2rem;
+        margin-block-end: 2rem;
+        color: $white;
+        @include tablet {
+            margin: 7rem;
+            margin-block-start: 2rem;
+            margin-block-end: 2rem;
+        }
+        @include movil {
+            margin: 3rem;
+            margin-block-start: 2rem;
+            margin-block-end: 2rem;
+        }
+    }
+}
+
+.bcontacto {
+    height: 100vh;
+    padding-bottom: 5rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image:url(../multimedia/contacto.jpg);
+    background-position: top;
+    background-size: cover;
+    background-color: $grey;
+    box-shadow: inset 3000px 0 0 0 rgba(0, 0, 0, 0.199);
+    &__titulo {
+        color: $white;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        margin: 2rem;
+        text-align: center;
+    }
+    &__texto {
+        display: block;
+        margin: 23rem;
+        margin-block-start: 2rem;
+        margin-block-end: 2rem;
+        color: $white;
+        @include tablet {
+            margin: 7rem;
+            margin-block-start: 2rem;
+            margin-block-end: 2rem;
+        }
+        @include movil {
+            margin: 3rem;
+            margin-block-start: 2rem;
+            margin-block-end: 2rem;
+        }
+    }
+}
+
+.bnos {
+    height: 100vh;
+    padding-bottom: 5rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image:url(../multimedia/Nos.jpg);
+    background-position: top;
+    background-size: cover;
+    background-color: $grey;
+    box-shadow: inset 3000px 0 0 0 rgba(0, 0, 0, 0.199);
+    &__titulo {
+        color: $white;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        margin: 2rem;
+        text-align: center;
+    }
+    &__texto {
+        display: block;
+        margin: 23rem;
+        margin-block-start: 2rem;
+        margin-block-end: 2rem;
+        color: $white;
+        @include tablet {
+            margin: 7rem;
+            margin-block-start: 2rem;
+            margin-block-end: 2rem;
+        }
+        @include movil {
+            margin: 3rem;
+            margin-block-start: 2rem;
+            margin-block-end: 2rem;
+        }
+    }
+}
+
+.bservicios {
+    height: 100vh;
+    padding-bottom: 5rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image:url(../multimedia/nuestrosServicios.jpg);
+    background-position: top;
+    background-size: cover;
+    background-color: $grey;
+    box-shadow: inset 3000px 0 0 0 rgba(0, 0, 0, 0.199);
+    &__titulo {
+        color: $white;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        margin: 2rem;
+        text-align: center;
+    }
+    &__texto {
+        display: block;
+        margin: 23rem;
+        margin-block-start: 2rem;
+        margin-block-end: 2rem;
+        color: $white;
+        @include tablet {
+            margin: 7rem;
+            margin-block-start: 2rem;
+            margin-block-end: 2rem;
+        }
+        @include movil {
+            margin: 3rem;
+            margin-block-start: 2rem;
+            margin-block-end: 2rem;
+        }
+    }
+}

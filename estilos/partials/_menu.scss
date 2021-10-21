@@ -1,0 +1,24 @@
+/*MENÚ*/
+.navbar-dark .navbar-nav .nav-link {
+    color: $white;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: $turq-dark;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    color: $turq-dark;
+}
+
+nav.navbar {
+    background-color: $turq;
+    padding: 1rem;
+}
+
+li {
+    display: inline;
+    padding: 1.2rem;
+}

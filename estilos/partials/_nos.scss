@@ -1,0 +1,28 @@
+/*QUIÉNES SOMOS*/
+
+.miembros {
+    max-width: 100%;
+    background-color: $turq-light;
+    &__imagen {
+        height: 300px;
+        display: block;
+        margin: auto;
+    }
+}
+
+.equipo {
+    display: flex;
+    flex-direction: row;
+    margin: 3rem;
+    gap: 1rem;
+    > * {
+        flex-basis: 100%;
+        background-color: $turq-light;
+    }
+    @include tablet {
+        flex-direction: column;
+    }
+    @include movil {
+        flex-direction: column;
+    }
+}
