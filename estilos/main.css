@@ -864,7 +864,7 @@ body {
 
 @media screen and (max-width: 425px) {
   .titulos {
-    margin: 0;
+    margin: 1rem;
   }
 }
 
