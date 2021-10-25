@@ -668,6 +668,7 @@ li {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    margin: 2rem;
   }
 }
 
@@ -675,10 +676,16 @@ li {
 .servicios {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(25rem, 1fr))[auto-fill];
-      grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+  -ms-grid-columns: (minmax(15rem, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
   grid-gap: 1rem;
   margin: 3rem;
+}
+
+@media screen and (max-width: 425px) {
+  .servicios {
+    margin: 2rem;
+  }
 }
 
 .servicios p {
@@ -693,6 +700,7 @@ li {
 .servicios__item-consultorio {
   background-image: url(../multimedia/consultorio.jpg);
   background-size: cover;
+  background-position: center;
   -webkit-box-shadow: inset 3000px 0 0 0 rgba(44, 46, 45, 0.603);
           box-shadow: inset 3000px 0 0 0 rgba(44, 46, 45, 0.603);
 }

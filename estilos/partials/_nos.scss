@@ -27,5 +27,6 @@
     }
     @include movil {
         flex-direction: column;
+        margin: 2rem;
     }
 }

@@ -1,9 +1,12 @@
 /*SERVICIOS*/
 .servicios {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
     grid-gap: 1rem;
     margin: 3rem;
+    @include movil {
+        margin: 2rem;
+    }
     p {
         color: $white;
     }
@@ -13,6 +16,7 @@
         &-consultorio {
             background-image: url(../multimedia/consultorio.jpg);
             background-size: cover;
+            background-position: center;
             box-shadow: inset 3000px 0 0 0 rgba(44, 46, 45, 0.603);
         }
         &-consultorio:hover {
