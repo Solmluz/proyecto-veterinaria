@@ -816,10 +816,10 @@ li {
 
 @media screen and (max-width: 1024px) {
   .equipo {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: (minmax(20rem, 1fr))[auto-fill];
-        grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 
