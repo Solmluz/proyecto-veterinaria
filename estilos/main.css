@@ -327,6 +327,15 @@
   line-height: 1.2;
 }
 
+@media screen and (max-width: 768px) {
+  .container-res {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: #F7F3E9;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .container-res {
     width: 100%;
@@ -618,6 +627,12 @@ li {
   height: 300px;
   display: block;
   margin: auto;
+}
+
+@media screen and (max-width: 425px) {
+  .miembros__imagen {
+    height: 200px;
+  }
 }
 
 .equipo {
