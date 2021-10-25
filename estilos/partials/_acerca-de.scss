@@ -16,6 +16,12 @@
         background-color: $turq-light;
         max-width: 100%;
     }
+    @include laptop {
+        flex-direction: column;
+        margin: 7rem;
+        margin-block-start: 2rem;
+        margin-block-end: 2rem;
+    }
     @include tablet {
         flex-direction: column;
         margin: 7rem;

@@ -48,6 +48,15 @@
   color: #F7F3E9;
 }
 
+@media screen and (max-width: 1024px) {
+  .bienvenida {
+    background-position: center;
+  }
+  .bienvenida__texto {
+    margin: 7rem;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .bienvenida {
     background-position: center;
@@ -105,6 +114,12 @@
   color: #F7F3E9;
 }
 
+@media screen and (max-width: 1024px) {
+  .bacerca__texto {
+    margin: 7rem;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .bacerca__texto {
     margin: 7rem;
@@ -154,6 +169,12 @@
   -webkit-margin-after: 2rem;
           margin-block-end: 2rem;
   color: #F7F3E9;
+}
+
+@media screen and (max-width: 1024px) {
+  .bcontacto__texto {
+    margin: 7rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -207,6 +228,12 @@
   color: #F7F3E9;
 }
 
+@media screen and (max-width: 1024px) {
+  .bnos__texto {
+    margin: 7rem;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .bnos__texto {
     margin: 7rem;
@@ -258,6 +285,12 @@
   color: #F7F3E9;
 }
 
+@media screen and (max-width: 1024px) {
+  .bservicios__texto {
+    margin: 7rem;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .bservicios__texto {
     margin: 7rem;
@@ -280,6 +313,15 @@
       grid-template-rows: auto 1fr auto;
   margin: auto;
   line-height: 1.2;
+}
+
+@media screen and (max-width: 1024px) {
+  .container-res {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: #F7F3E9;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -310,6 +352,15 @@
   border-radius: 1rem;
   position: relative;
   bottom: 17rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .urgencias {
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    bottom: 17rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -529,6 +580,20 @@ li {
   max-width: 100%;
 }
 
+@media screen and (max-width: 1024px) {
+  .beneficios {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 7rem;
+    -webkit-margin-before: 2rem;
+            margin-block-start: 2rem;
+    -webkit-margin-after: 2rem;
+            margin-block-end: 2rem;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .beneficios {
     -webkit-box-orient: vertical;
@@ -567,6 +632,7 @@ li {
   background-color: #dfe7e6;
 }
 
+/*RESPONSIVE*/
 /*QUIÉNES SOMOS*/
 .miembros {
   max-width: 100%;
@@ -601,6 +667,15 @@ li {
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
   background-color: #dfe7e6;
+}
+
+@media screen and (max-width: 1024px) {
+  .equipo {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(20rem, 1fr))[auto-fill];
+        grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -851,6 +926,16 @@ body {
   -webkit-margin-after: 2rem;
           margin-block-end: 2rem;
   color: #82898a;
+}
+
+@media screen and (max-width: 1024px) {
+  .texto {
+    margin: 7rem;
+    -webkit-margin-before: 2rem;
+            margin-block-start: 2rem;
+    -webkit-margin-after: 2rem;
+            margin-block-end: 2rem;
+  }
 }
 
 @media screen and (max-width: 768px) {

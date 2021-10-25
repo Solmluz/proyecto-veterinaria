@@ -26,6 +26,12 @@
         margin-block-end: 2rem;
         color: $white;
     }
+    @include laptop {
+        background-position: center;
+        &__texto {
+            margin: 7rem;
+        }
+}
     @include tablet {
             background-position: center;
             &__texto {
@@ -64,6 +70,9 @@
         margin-block-start: 2rem;
         margin-block-end: 2rem;
         color: $white;
+        @include laptop {
+            margin: 7rem;
+        }
         @include tablet {
             margin: 7rem;
         }
@@ -97,6 +106,9 @@
         margin-block-start: 2rem;
         margin-block-end: 2rem;
         color: $white;
+        @include laptop {
+            margin: 7rem;
+        }
         @include tablet {
             margin: 7rem;
         }
@@ -130,6 +142,9 @@
         margin-block-start: 2rem;
         margin-block-end: 2rem;
         color: $white;
+        @include laptop {
+            margin: 7rem;
+        }
         @include tablet {
             margin: 7rem;
         }
@@ -163,6 +178,9 @@
         margin-block-start: 2rem;
         margin-block-end: 2rem;
         color: $white;
+        @include laptop {
+            margin: 7rem;
+        }
         @include tablet {
             margin: 7rem;
         }

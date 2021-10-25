@@ -1,3 +1,5 @@
+@import "./responsive";
+
 /*QUIÉNES SOMOS*/
 
 .miembros {
@@ -21,6 +23,10 @@
     > * {
         flex-basis: 100%;
         background-color: $turq-light;
+    }
+    @include laptop {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
     }
     @include tablet {
         flex-direction: column;

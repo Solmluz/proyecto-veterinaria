@@ -47,6 +47,11 @@ $font-lock-max: 1024px !default;
     margin-block-start: 2rem;
     margin-block-end: 2rem;
     color: $grey;
+    @include laptop {
+      margin: 7rem;
+      margin-block-start: 2rem;
+      margin-block-end: 2rem;
+  }
     @include tablet {
         margin: 7rem;
         margin-block-start: 2rem;
