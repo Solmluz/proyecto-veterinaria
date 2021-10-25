@@ -345,7 +345,7 @@
 /*RESPONSIVE*/
 /*URGENCIAS*/
 .urgencias {
-  color: #dc3545;
+  color: #5EAAA8;
   background-color: #dfe7e6;
   font-weight: 600;
   padding: 1.5rem;
@@ -672,6 +672,34 @@ li {
 
 /*RESPONSIVE*/
 /*ACERCA DE*/
+.acerca-banner {
+  background-image: url(../multimedia/beneficios.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: #A3D2CA;
+  -webkit-box-shadow: inset 3000px 0 0 0 #1d333396;
+          box-shadow: inset 3000px 0 0 0 #1d333396;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 100%;
+  margin: 5rem;
+  padding: 5rem;
+}
+
+.acerca-banner h2 {
+  color: #F7F3E9;
+  text-align: center;
+}
+
 .beneficios {
   list-style: none;
   display: -webkit-box;
@@ -843,8 +871,8 @@ li {
   background-image: url(../multimedia/consultorio.jpg);
   background-size: cover;
   background-position: center;
-  -webkit-box-shadow: inset 3000px 0 0 0 rgba(44, 46, 45, 0.603);
-          box-shadow: inset 3000px 0 0 0 rgba(44, 46, 45, 0.603);
+  -webkit-box-shadow: inset 3000px 0 0 0 #1d333396;
+          box-shadow: inset 3000px 0 0 0 #1d333396;
 }
 
 .servicios__item-consultorio:hover {
@@ -855,8 +883,8 @@ li {
 .servicios__item-farmacia {
   background-image: url(../multimedia/farmaciaVeterinaria.jpg);
   background-size: cover;
-  -webkit-box-shadow: inset 3000px 0 0 0 rgba(44, 46, 45, 0.603);
-          box-shadow: inset 3000px 0 0 0 rgba(44, 46, 45, 0.603);
+  -webkit-box-shadow: inset 3000px 0 0 0 #1d333396;
+          box-shadow: inset 3000px 0 0 0 #1d333396;
 }
 
 .servicios__item-farmacia:hover {
@@ -867,8 +895,8 @@ li {
 .servicios__item-analisis {
   background-image: url(../multimedia/analisis.jpg);
   background-size: cover;
-  -webkit-box-shadow: inset 3000px 0 0 0 rgba(44, 46, 45, 0.603);
-          box-shadow: inset 3000px 0 0 0 rgba(44, 46, 45, 0.603);
+  -webkit-box-shadow: inset 3000px 0 0 0 #1d333396;
+          box-shadow: inset 3000px 0 0 0 #1d333396;
 }
 
 .servicios__item-analisis:hover {
@@ -879,8 +907,8 @@ li {
 .servicios__item-cirugias {
   background-image: url(../multimedia/cirugias.jpg);
   background-size: cover;
-  -webkit-box-shadow: inset 3000px 0 0 0 rgba(44, 46, 45, 0.603);
-          box-shadow: inset 3000px 0 0 0 rgba(44, 46, 45, 0.603);
+  -webkit-box-shadow: inset 3000px 0 0 0 #1d333396;
+          box-shadow: inset 3000px 0 0 0 #1d333396;
 }
 
 .servicios__item-cirugias:hover {
@@ -891,8 +919,8 @@ li {
 .servicios__item-radiografias {
   background-image: url(../multimedia/radiografias.jpg);
   background-size: cover;
-  -webkit-box-shadow: inset 3000px 0 0 0 rgba(44, 46, 45, 0.603);
-          box-shadow: inset 3000px 0 0 0 rgba(44, 46, 45, 0.603);
+  -webkit-box-shadow: inset 3000px 0 0 0 #1d333396;
+          box-shadow: inset 3000px 0 0 0 #1d333396;
 }
 
 .servicios__item-radiografias:hover {
@@ -903,8 +931,8 @@ li {
 .servicios__item-ecografias {
   background-image: url(../multimedia/ecografias.jpg);
   background-size: cover;
-  -webkit-box-shadow: inset 3000px 0 0 0 rgba(44, 46, 45, 0.603);
-          box-shadow: inset 3000px 0 0 0 rgba(44, 46, 45, 0.603);
+  -webkit-box-shadow: inset 3000px 0 0 0 #1d333396;
+          box-shadow: inset 3000px 0 0 0 #1d333396;
 }
 
 .servicios__item-ecografias:hover {
@@ -915,8 +943,8 @@ li {
 .servicios__item-internacion {
   background-image: url(../multimedia/internacion.jpg);
   background-size: cover;
-  -webkit-box-shadow: inset 3000px 0 0 0 rgba(44, 46, 45, 0.603);
-          box-shadow: inset 3000px 0 0 0 rgba(44, 46, 45, 0.603);
+  -webkit-box-shadow: inset 3000px 0 0 0 #1d333396;
+          box-shadow: inset 3000px 0 0 0 #1d333396;
 }
 
 .servicios__item-internacion:hover {
@@ -927,8 +955,8 @@ li {
 .servicios__item-petshop {
   background-image: url(../multimedia/petshop.jpg);
   background-size: cover;
-  -webkit-box-shadow: inset 3000px 0 0 0 rgba(44, 46, 45, 0.603);
-          box-shadow: inset 3000px 0 0 0 rgba(44, 46, 45, 0.603);
+  -webkit-box-shadow: inset 3000px 0 0 0 #1d333396;
+          box-shadow: inset 3000px 0 0 0 #1d333396;
 }
 
 .servicios__item-petshop:hover {
@@ -940,8 +968,8 @@ li {
   background-image: url(../multimedia/peluqueria.jpg);
   background-size: cover;
   background-position: center;
-  -webkit-box-shadow: inset 3000px 0 0 0 rgba(44, 46, 45, 0.603);
-          box-shadow: inset 3000px 0 0 0 rgba(44, 46, 45, 0.603);
+  -webkit-box-shadow: inset 3000px 0 0 0 #1d333396;
+          box-shadow: inset 3000px 0 0 0 #1d333396;
 }
 
 .servicios__item-peluqueria:hover {

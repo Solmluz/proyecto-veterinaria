@@ -1,6 +1,25 @@
 @import "./responsive";
 
 /*ACERCA DE*/
+.acerca-banner {
+    background-image: url(../multimedia/beneficios.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: $turq;
+    box-shadow: inset 3000px 0 0 0 #1d333396;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+    margin: 5rem;
+    padding: 5rem;
+    h2 {
+        color: $white;
+        text-align: center;
+    }
+}
+
 .beneficios {
     list-style: none;
     display: flex;
