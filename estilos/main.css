@@ -987,11 +987,21 @@ h4 {
   font-weight: 700;
   font-size: 8rem;
   margin: 2rem;
-  -webkit-margin-before: 4rem;
-          margin-block-start: 4rem;
-  -webkit-margin-after: 4rem;
-          margin-block-end: 4rem;
+  -webkit-margin-before: 2rem;
+          margin-block-start: 2rem;
+  -webkit-margin-after: 2rem;
+          margin-block-end: 2rem;
   padding: 0.5rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .error404__titulo {
+    margin: 7rem;
+    -webkit-margin-before: 2rem;
+            margin-block-start: 2rem;
+    -webkit-margin-after: 2rem;
+            margin-block-end: 2rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -1018,23 +1028,34 @@ h4 {
 .error404__texto {
   display: block;
   margin: 23rem;
-  -webkit-margin-before: 7rem;
-          margin-block-start: 7rem;
-  -webkit-margin-after: 7rem;
-          margin-block-end: 7rem;
+  -webkit-margin-before: 5rem;
+          margin-block-start: 5rem;
+  -webkit-margin-after: 5rem;
+          margin-block-end: 5rem;
   color: #F7F3E9;
   font-size: 2rem;
   bottom: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .error404__texto {
+    font-size: 1.5rem;
+    margin: 7rem;
+    -webkit-margin-before: 1rem;
+            margin-block-start: 1rem;
+    -webkit-margin-after: 1rem;
+            margin-block-end: 1rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .error404__texto {
     font-size: 1.5rem;
     margin: 7rem;
-    -webkit-margin-before: 2rem;
-            margin-block-start: 2rem;
-    -webkit-margin-after: 2rem;
-            margin-block-end: 2rem;
+    -webkit-margin-before: 1rem;
+            margin-block-start: 1rem;
+    -webkit-margin-after: 1rem;
+            margin-block-end: 1rem;
   }
 }
 
@@ -1066,8 +1087,18 @@ h4 {
   background-color: #dfe7e6;
 }
 
+@media screen and (max-width: 1024px) {
+  .error404__button {
+    font-size: 1.8rem;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .error404__button {
+    font-size: 1.8rem;
     margin: auto;
     margin-top: 2rem;
     margin-bottom: 2rem;

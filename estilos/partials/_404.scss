@@ -16,9 +16,14 @@
         font-weight: 700;
         font-size: 8rem;
         margin: 2rem;
-        margin-block-start: 4rem;
-        margin-block-end: 4rem;
+        margin-block-start: 2rem;
+        margin-block-end: 2rem;
         padding: 0.5rem;
+        @include laptop {
+            margin: 7rem;
+            margin-block-start: 2rem;
+            margin-block-end: 2rem;
+        }
         @include tablet {
             font-size: 3rem;
             margin: 7rem;
@@ -34,16 +39,22 @@
     &__texto {
         display: block;
         margin: 23rem;
-        margin-block-start: 7rem;
-        margin-block-end: 7rem;
+        margin-block-start: 5rem;
+        margin-block-end: 5rem;
         color: $white;
         font-size: 2rem;
         bottom: 100%;
+        @include laptop {
+            font-size: 1.5rem;
+            margin: 7rem;
+            margin-block-start: 1rem;
+            margin-block-end: 1rem;
+        }
         @include tablet {
             font-size: 1.5rem;
             margin: 7rem;
-            margin-block-start: 2rem;
-            margin-block-end: 2rem;
+            margin-block-start: 1rem;
+            margin-block-end: 1rem;
         }
         @include movil {
             font-size: 1.4rem;
@@ -66,7 +77,14 @@
             color: $turq-dark;
             background-color: $turq-light;
         }
+        @include laptop {
+            font-size: 1.8rem;
+            margin: auto;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+          }
         @include tablet {
+            font-size: 1.8rem;
             margin: auto;
             margin-top: 2rem;
             margin-bottom: 2rem;
