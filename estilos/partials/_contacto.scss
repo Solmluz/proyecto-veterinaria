@@ -2,13 +2,14 @@
 .form {
     margin: 6rem;
     &__item {
-        font-family: 'Montserrat', sans-serif;
         color: $grey;
     }
     &__legend {
-        font-family: 'Montserrat', sans-serif;
         color: $turq-dark;
         font-weight: 600;
+    }
+    @include movil {
+        margin: 3rem;
     }
 }
 .button {

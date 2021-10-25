@@ -3,7 +3,6 @@
 /*HORARIOS*/
 .horarios {
     background-color: $turq-light;
-    font-family: 'Montserrat', sans-serif;
     color: #82898a;
     padding-bottom: 0.3rem;
     padding-top: 0.3rem;
@@ -13,12 +12,10 @@
     margin-block-end: 1rem;
     &__titulo {
         text-align: center;
-        font-family: 'Montserrat', sans-serif;
         font-weight: 700;
         color: $grey;
     }
     &__item {
-        font-family: 'Montserrat', sans-serif;
         color: $grey;
         background-color: $turq-light;
     }
