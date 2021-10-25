@@ -466,7 +466,7 @@ li {
 .novedad__titulo {
   color: #F7F3E9;
   font-weight: 700;
-  margin: 2rem;
+  margin: 1rem;
   text-align: center;
 }
 
@@ -486,6 +486,10 @@ li {
   }
   .novedad__texto {
     margin: 7rem;
+    -webkit-margin-before: 1rem;
+            margin-block-start: 1rem;
+    -webkit-margin-after: 1rem;
+            margin-block-end: 1rem;
   }
 }
 
@@ -495,15 +499,49 @@ li {
   }
   .novedad__texto {
     margin: 7rem;
+    -webkit-margin-before: 1rem;
+            margin-block-start: 1rem;
+    -webkit-margin-after: 1rem;
+            margin-block-end: 1rem;
   }
 }
 
 @media screen and (max-width: 425px) {
   .novedad {
     background-position: center;
+    height: 100vh;
   }
   .novedad__texto {
     margin: 3rem;
+    -webkit-margin-before: 1rem;
+            margin-block-start: 1rem;
+    -webkit-margin-after: 1rem;
+            margin-block-end: 1rem;
+  }
+}
+
+#countdown {
+  color: #F7F3E9;
+  font-size: 4.7rem;
+  -webkit-box-shadow: inset 3000px 0 0 0 #101f1f86;
+          box-shadow: inset 3000px 0 0 0 #101f1f86;
+}
+
+@media screen and (max-width: 1024px) {
+  #countdown {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #countdown {
+    font-size: 2.1rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  #countdown {
+    font-size: 2rem;
   }
 }
 

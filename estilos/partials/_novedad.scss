@@ -13,7 +13,7 @@
     &__titulo {
         color: $white;
         font-weight: 700;
-        margin: 2rem;
+        margin: 1rem;
         text-align: center;
     }
     &__texto {
@@ -27,18 +27,40 @@
         background-position: center;
         &__texto {
             margin: 7rem;
+            margin-block-start: 1rem;
+            margin-block-end: 1rem;
         }
 }
     @include tablet {
             background-position: center;
             &__texto {
                 margin: 7rem;
+                margin-block-start: 1rem;
+                margin-block-end: 1rem;
             }
     }
     @include movil {
             background-position: center;
+            height: 100vh;
             &__texto {
                 margin: 3rem;
+                margin-block-start: 1rem;
+                margin-block-end: 1rem;
             }
+    }
+}
+
+#countdown {
+    color: $white;
+    font-size: 4.7rem;
+    box-shadow: inset 3000px 0 0 0 #101f1f86;
+    @include laptop {
+        font-size: 3rem;
+    }
+    @include tablet {
+        font-size: 2.1rem;
+    }
+    @include movil {
+        font-size: 2rem;
     }
 }
