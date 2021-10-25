@@ -78,6 +78,15 @@
         &-petshop:hover {
             box-shadow: inset 3000px 0 0 0 #579c9aa6;
         }
+        &-peluqueria {
+            background-image: url(../multimedia/peluqueria.jpg);
+            background-size: cover;
+            background-position: center;
+            box-shadow: inset 3000px 0 0 0 rgba(44, 46, 45, 0.603);
+        }
+        &-peluqueria:hover {
+            box-shadow: inset 3000px 0 0 0 #579c9aa6;
+        }
     }
     
     &__titulo {
