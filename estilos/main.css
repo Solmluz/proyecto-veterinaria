@@ -518,6 +518,7 @@ li {
           margin-block-start: 2rem;
   -webkit-margin-after: 2rem;
           margin-block-end: 2rem;
+  padding-left: 0;
   text-align: center;
   color: #82898a;
   gap: 1rem;
