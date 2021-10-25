@@ -27,8 +27,8 @@
   background-position: top left;
   background-size: cover;
   background-color: #82898a;
-  -webkit-box-shadow: inset 3000px 0 0 0 rgba(0, 0, 0, 0.199);
-          box-shadow: inset 3000px 0 0 0 rgba(0, 0, 0, 0.199);
+  -webkit-box-shadow: inset 3000px 0 0 0 #1d333396;
+          box-shadow: inset 3000px 0 0 0 #1d333396;
 }
 
 .bienvenida__titulo {
@@ -93,8 +93,8 @@
   background-position: center;
   background-size: cover;
   background-color: #82898a;
-  -webkit-box-shadow: inset 3000px 0 0 0 rgba(0, 0, 0, 0.199);
-          box-shadow: inset 3000px 0 0 0 rgba(0, 0, 0, 0.199);
+  -webkit-box-shadow: inset 3000px 0 0 0 #1d333396;
+          box-shadow: inset 3000px 0 0 0 #1d333396;
 }
 
 .bacerca__titulo {
@@ -150,8 +150,8 @@
   background-position: top;
   background-size: cover;
   background-color: #82898a;
-  -webkit-box-shadow: inset 3000px 0 0 0 rgba(0, 0, 0, 0.199);
-          box-shadow: inset 3000px 0 0 0 rgba(0, 0, 0, 0.199);
+  -webkit-box-shadow: inset 3000px 0 0 0 #1d333396;
+          box-shadow: inset 3000px 0 0 0 #1d333396;
 }
 
 .bcontacto__titulo {
@@ -207,8 +207,8 @@
   background-position: top;
   background-size: cover;
   background-color: #82898a;
-  -webkit-box-shadow: inset 3000px 0 0 0 rgba(0, 0, 0, 0.199);
-          box-shadow: inset 3000px 0 0 0 rgba(0, 0, 0, 0.199);
+  -webkit-box-shadow: inset 3000px 0 0 0 #1d333396;
+          box-shadow: inset 3000px 0 0 0 #1d333396;
 }
 
 .bnos__titulo {
@@ -264,8 +264,8 @@
   background-position: top;
   background-size: cover;
   background-color: #82898a;
-  -webkit-box-shadow: inset 3000px 0 0 0 rgba(0, 0, 0, 0.199);
-          box-shadow: inset 3000px 0 0 0 rgba(0, 0, 0, 0.199);
+  -webkit-box-shadow: inset 3000px 0 0 0 #1d333396;
+          box-shadow: inset 3000px 0 0 0 #1d333396;
 }
 
 .bservicios__titulo {
@@ -441,6 +441,72 @@ li {
   padding: 1.2rem;
 }
 
+.novedad {
+  padding-bottom: 5rem;
+  position: relative;
+  height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url(../multimedia/novedad.jpg);
+  background-position: top left;
+  background-size: cover;
+  background-color: #82898a;
+  -webkit-box-shadow: inset 3000px 0 0 0 #1d333396;
+          box-shadow: inset 3000px 0 0 0 #1d333396;
+}
+
+.novedad__titulo {
+  color: #F7F3E9;
+  font-weight: 700;
+  margin: 2rem;
+  text-align: center;
+}
+
+.novedad__texto {
+  display: block;
+  margin: 23rem;
+  -webkit-margin-before: 2rem;
+          margin-block-start: 2rem;
+  -webkit-margin-after: 2rem;
+          margin-block-end: 2rem;
+  color: #F7F3E9;
+}
+
+@media screen and (max-width: 1024px) {
+  .novedad {
+    background-position: center;
+  }
+  .novedad__texto {
+    margin: 7rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .novedad {
+    background-position: center;
+  }
+  .novedad__texto {
+    margin: 7rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .novedad {
+    background-position: center;
+  }
+  .novedad__texto {
+    margin: 3rem;
+  }
+}
+
 /*RESPONSIVE*/
 /*PROVEEDORES*/
 .proveedores {
@@ -483,6 +549,8 @@ li {
   background-size: cover;
   background-position: center;
   background-color: #A3D2CA;
+  -webkit-box-shadow: inset 3000px 0 0 0 #1d333396;
+          box-shadow: inset 3000px 0 0 0 #1d333396;
   max-width: 100%;
   margin: 5rem;
   padding: 5rem;

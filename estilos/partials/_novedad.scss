@@ -1,0 +1,44 @@
+.novedad {
+    padding-bottom: 5rem;
+    position: relative;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image:url(../multimedia/novedad.jpg);
+    background-position: top left;
+    background-size: cover;
+    background-color: $grey;
+    box-shadow: inset 3000px 0 0 0 #1d333396;
+    &__titulo {
+        color: $white;
+        font-weight: 700;
+        margin: 2rem;
+        text-align: center;
+    }
+    &__texto {
+        display: block;
+        margin: 23rem;
+        margin-block-start: 2rem;
+        margin-block-end: 2rem;
+        color: $white;
+    }
+    @include laptop {
+        background-position: center;
+        &__texto {
+            margin: 7rem;
+        }
+}
+    @include tablet {
+            background-position: center;
+            &__texto {
+                margin: 7rem;
+            }
+    }
+    @include movil {
+            background-position: center;
+            &__texto {
+                margin: 3rem;
+            }
+    }
+}
