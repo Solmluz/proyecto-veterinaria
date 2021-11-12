@@ -30,57 +30,57 @@ $font-lock-max: 1024px !default;
 
 /*TÍTULOS*/
 .titulos {
-    color: $turq-dark;
-    text-align: center;
-    font-weight: 700;
-    margin: 2rem;
-    padding: 0.5rem;
-    @include movil {
-      margin: 1rem;
-    }
+  color: $turq-dark;
+  text-align: center;
+  font-weight: 700;
+  margin: 2rem;
+  padding: 0.5rem;
+  @include movil {
+    margin: 1rem;
+  }
 }
 
 /*TEXTO*/
 .texto {
-    display: block;
-    margin: 23rem;
+  display: block;
+  margin: 23rem;
+  margin-block-start: 2rem;
+  margin-block-end: 2rem;
+  color: $grey;
+  @include laptop {
+    margin: 7rem;
     margin-block-start: 2rem;
     margin-block-end: 2rem;
-    color: $grey;
-    @include laptop {
-      margin: 7rem;
-      margin-block-start: 2rem;
-      margin-block-end: 2rem;
   }
-    @include tablet {
-        margin: 7rem;
-        margin-block-start: 2rem;
-        margin-block-end: 2rem;
-    }
-    @include movil {
-        margin: 3rem;
-        margin-block-start: 2rem;
-        margin-block-end: 2rem;
-    }
+  @include tablet {
+    margin: 7rem;
+    margin-block-start: 2rem;
+    margin-block-end: 2rem;
+  }
+  @include movil {
+    margin: 3rem;
+    margin-block-start: 2rem;
+    margin-block-end: 2rem;
+  }
 }
 
 p {
-    text-align: center;
-    color: $grey;
-    @include font-size(1.1rem, 1rem);
-    margin: 3rem;
+  text-align: center;
+  color: $grey;
+  @include font-size(1.1rem, 1rem);
+  margin: 3rem;
 }
   
 h1{
-    @include font-size(2.1rem, 2rem)
+  @include font-size(2.1rem, 2rem)
 }
 
 h2 {
-    @include font-size(1.5rem, 1.4rem)
+  @include font-size(1.5rem, 1.4rem)
 }
 
 h3 {
-    @include font-size(1.3rem, 1.2rem)
+  @include font-size(1.3rem, 1.2rem)
 }
 
 h4 {

@@ -30,14 +30,14 @@
             margin-block-start: 1rem;
             margin-block-end: 1rem;
         }
-}
+    }
     @include tablet {
-            background-position: center;
-            &__texto {
-                margin: 7rem;
-                margin-block-start: 1rem;
-                margin-block-end: 1rem;
-            }
+        background-position: center;
+        &__texto {
+            margin: 7rem;
+            margin-block-start: 1rem;
+            margin-block-end: 1rem;
+        }
     }
     @include movil {
             background-position: center;
